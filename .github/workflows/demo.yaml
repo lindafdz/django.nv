@@ -18,10 +18,10 @@ jobs:
 
   integration:
     runs-on: ubuntu-latest
-      steps:
+    steps:
         - run: echo "This is an integration step"
         - run: exit 1
   prod:
     runs-on: ubuntu-latest
-      steps:
+    steps:
         - run: echo "This is a deploy step"
